@@ -1,0 +1,20 @@
+* {
+	font-family: 'Inter', sans-serif;
+}
+#nav {
+	height: 410px;
+	background-color: #121212;
+}
+
+@font-face {
+	font-family: Svngilroy-bold;
+	src: url(../public/font/SVNGilroyBold.woff);
+}
+@font-face {
+	font-family: Svngilroy-light;
+	src: url(../public/font/SVNGilroyLight.woff);
+}
+@font-face {
+	font-family: Svngilroy-extra;
+	src: url(../public/font/Gilroy-ExtraBold.otf);
+}

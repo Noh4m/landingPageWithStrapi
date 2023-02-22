@@ -1,0 +1,114 @@
+.containerNav {
+	padding: 28px 40px 0px;
+	color: white;
+}
+
+.navBar {
+	display: flex;
+	align-items: center;
+	padding-top: 28px;
+	justify-content: space-between;
+}
+
+.navBar a{
+	text-decoration: none;
+	
+}
+
+.btnMenu {
+	z-index: 100;
+	mix-blend-mode: difference;
+}
+
+.test {
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 60vh;
+	position: absolute;
+	background-color: #FFF;
+}
+.linksMobile {
+	color: black;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.linksMobile a:visited,
+a:link {
+	color: black ;
+}
+
+.linksMobile a {
+	padding-bottom: 20px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 26px;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.bookService {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 18px;
+	text-underline-offset: 7px;
+	width: fit-content;
+}
+.bookService:visited,
+:link {
+	color: #FFF;
+}
+
+.bookService:last-child {
+	margin-bottom: 0px;
+}
+
+
+@media (min-width: 900px) {
+
+	.containerNav {
+		max-width: 1180px;
+		margin: 0 auto;
+		padding: 28px 40px 0px;
+	}
+
+	.btnBooking {
+		color: #fff;
+		border: solid #fff 2px;
+		padding: 14px 47px;
+		background: none;
+		margin-left: 48px;
+	}
+
+	.links {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.links a {
+		color: #FFF;
+		padding-left: 48px;
+	}
+	.links a:link {
+		color: #FFF;
+	}
+
+	.navContainer {
+		margin-top: 40px;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.title {
+		font-size: 50px;
+		max-width: 585px;
+		margin-top: 0px;
+	}
+}
