@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_image_full_widths",
+  "info": {
+    "displayName": "ImageFullWidth"
+  },
+  "options": {},
+  "attributes": {
+    "imageFullwidth": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

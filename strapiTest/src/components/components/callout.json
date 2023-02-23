@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_callouts",
+  "info": {
+    "displayName": "Callout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "titleColorPart": {
+      "type": "string"
+    }
+  }
+}
