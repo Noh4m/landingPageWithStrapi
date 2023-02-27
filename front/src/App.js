@@ -3,6 +3,7 @@ import Callout from './Components/Callout';
 import Facilities from './Components/Facilities';
 import ImageHeroBanner from './Components/ImageHeroBanner';
 import NavBar from './Components/NavBar'
+import Qualities from './Components/Qualities';
 import './style.css'
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
 			</section>
 			<section id='Callout'>
 				<Callout />
+			</section>
+			<section id='Qualities'>
+				<Qualities />
 			</section>
 		</>
 	);

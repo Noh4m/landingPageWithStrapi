@@ -6,6 +6,11 @@
 	background-color: #121212;
 }
 
+#Qualities {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 28px 40px 0px;
+}
 @font-face {
 	font-family: Svngilroy-bold;
 	src: url(../public/font/SVNGilroyBold.woff);

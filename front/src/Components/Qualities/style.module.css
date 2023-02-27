@@ -1,0 +1,30 @@
+.numberQuality {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    background-color: #FF7500;
+    height: 50px;
+    width: 50px;
+    border-radius: 150px;
+}
+
+.numberQuality span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.titleQuality {
+    color: #292929;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.textQuality {
+    color: #696969;
+    font-size: 16px;
+    font-weight: 500;
+}
