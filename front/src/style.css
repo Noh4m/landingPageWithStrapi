@@ -11,6 +11,10 @@
     margin: 0 auto;
     padding: 28px 40px 0px;
 }
+
+#test {
+	overflow: hidden;
+}
 @font-face {
 	font-family: Svngilroy-bold;
 	src: url(../public/font/SVNGilroyBold.woff);

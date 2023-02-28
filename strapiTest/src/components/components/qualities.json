@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_components_qualities",
+  "info": {
+    "displayName": "Qualities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Quality": {
+      "displayName": "Quality",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.quality"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Callout2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.callout"
+    }
+  }
+}

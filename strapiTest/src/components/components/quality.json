@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_quality",
+  "info": {
+    "displayName": "Quality"
+  },
+  "options": {},
+  "attributes": {
+    "numberQuality": {
+      "type": "string"
+    },
+    "titleQuality": {
+      "type": "string"
+    },
+    "textQuality": {
+      "type": "string"
+    }
+  }
+}

@@ -29,6 +29,17 @@
       "type": "component",
       "repeatable": false,
       "component": "components.callout"
+    },
+    "Qualities": {
+      "displayName": "Qualities",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.qualities"
+    },
+    "Callout2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.callout"
     }
   }
 }

@@ -12,7 +12,7 @@ function App() {
 	// if (loding) return <p>loading...</p>
 	// if (error) return <p> Error</p>
 	return (
-		<>
+		<div id='test'>
 			<section id='nav'>
 				<NavBar />
 				</section>
@@ -21,12 +21,12 @@ function App() {
 				<Facilities />
 			</section>
 			<section id='Callout'>
-				<Callout />
+				<Callout url="Callout"/>
 			</section>
 			<section id='Qualities'>
 				<Qualities />
 			</section>
-		</>
+		</div>
 	);
 }
 

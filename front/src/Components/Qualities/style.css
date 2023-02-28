@@ -1,0 +1,104 @@
+.qualitiesContent {
+	margin-bottom: 50px;
+}
+
+.numberQuality {
+	color: white;
+	font-size: 24px;
+	font-weight: 600;
+	position: relative;
+	background-color: #FF7500;
+	height: 50px;
+	width: 50px;
+	border-radius: 150px;
+}
+
+.numberQuality span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.titleQuality {
+	color: #292929;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.textQuality {
+	color: #696969;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+@media (min-width: 900px) { 
+	.containerQualities {
+		display: flex;
+		margin-bottom: 130px;
+	}
+	.qualitiesContent {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+	}
+	.qualitiesContentImg {
+		position: relative;
+		width: 50%;
+	}
+	.review1 {
+		position: absolute;
+		bottom: -60px;
+		margin: 0;
+		left: 50%;
+		z-index: 10;
+	}
+	.review2 {
+		position: absolute;
+		top: 100px;
+    	margin: 0;
+    	z-index: 1;
+		position: absolute;
+		top: -50px;
+		left: 50%;
+		margin: 0;
+		z-index: 1;
+	}
+
+	.review3 {
+		position: absolute;
+		top: 100px;
+    	margin: 0;
+    	z-index: 1;
+	}
+
+	.bedRoom {
+		position: absolute;
+		width: 482px;
+		top: 0;
+		height: 636px;
+		object-fit: cover;
+		margin: 0;
+		right: -130px;
+	}
+	.bedRoom img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.Agency {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 439px;
+		height: 219px;
+		margin: 0;
+	}
+
+	.Agency img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+}
