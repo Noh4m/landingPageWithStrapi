@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_review_and_spaces",
+  "info": {
+    "displayName": "ReviewAndSpace"
+  },
+  "options": {},
+  "attributes": {
+    "reviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.reviews"
+    },
+    "space": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.space"
+    }
+  }
+}

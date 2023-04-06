@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_img_grids",
+  "info": {
+    "displayName": "ImgGrid"
+  },
+  "options": {},
+  "attributes": {
+    "ImgWithText": {
+      "displayName": "ImgWithText",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.img-with-text"
+    }
+  }
+}

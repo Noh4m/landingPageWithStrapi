@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_img_with_texts",
+  "info": {
+    "displayName": "ImgWithText"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "nbrGuests": {
+      "type": "string"
+    }
+  }
+}

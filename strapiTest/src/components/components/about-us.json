@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_aboutuses",
+  "info": {
+    "displayName": "aboutUs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
